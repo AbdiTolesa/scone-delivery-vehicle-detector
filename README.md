@@ -35,10 +35,10 @@ You should have access to the step function visual editor. If you want to double
 ### Create a Role Instruction (You can skip this if you have a role created)
 - Find the SageMaker service page and click the startup button to start configuring your environment
 - Select the Quick Start option.
-A screenshot of the Quick Start option
+![image](https://user-images.githubusercontent.com/41271840/149580654-d1ab5d37-7f16-4401-b373-28c3259f55b3.png)
 - For the required IAM role choose to create a new role - note this role name down for later.
-A screenshot showing how to create a new role
+![image](https://user-images.githubusercontent.com/41271840/149580705-9dc9efdb-4b47-40e6-8ab2-cc40222ea3d2.png)
 - Leave all default options and create
-A screenshot showing how to create a new role.
+![image](https://user-images.githubusercontent.com/41271840/149580737-cadb7700-a1a7-4937-bb77-66ec8c7c912e.png)
 Hit "Submit" at the bottom of the page to complete your configuration
 It may take a few minutes for SageMaker to provision the environment after you complete this workflow.
