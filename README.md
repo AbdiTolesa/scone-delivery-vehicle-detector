@@ -86,7 +86,8 @@ The [Amazon SageMaker image classification algorithm](https://docs.aws.amazon.co
 Our model takes in an image and outputs an array of two values, the predicted probability value for each of your classes (bicycle and motorcycle respectively.) So, for example, a value of `b'[0.91, 0.09]'` indicates the probability of being a bike is 91% and being a motorcycle is 9%.
 
 ## Evaluation
-The following graph reveals the performance of our model
+The following graph reveals the performance of our model. The horizonal line represents the threshold for our mode. Points below it are plotted in red.
+
 ![image](https://user-images.githubusercontent.com/41271840/149670903-1aef8426-51a6-4bda-b558-d58e48c6d718.png)
 
 ## Suggestions for improvement
