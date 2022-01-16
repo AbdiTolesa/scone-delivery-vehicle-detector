@@ -57,3 +57,11 @@ You should have access to the step function visual editor. If you want to double
 ![image](https://user-images.githubusercontent.com/41271840/149580737-cadb7700-a1a7-4937-bb77-66ec8c7c912e.png)
 Hit "Submit" at the bottom of the page to complete your configuration
 It may take a few minutes for SageMaker to provision the environment after you complete this workflow.
+
+## About Amazon Image Classification Algorithm
+We have used the Amazon SageMaker image classification algorithm in this project to train our model.
+The [Amazon SageMaker image classification algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/image-classification.html) is a supervised learning algorithm that supports multi-label classification. It takes an image as input and outputs one or more labels assigned to that image. It uses a convolutional neural network (ResNet) that can be trained from scratch or trained using transfer learning when a large number of training images are not available.
+
+Our model takes in an image and outputs an array of two values, the predicted probability value for each of your classes (bicycle and motorcycle respectively.) So, for example, a value of `b'[0.91, 0.09]'` indicates the probability of being a bike is 91% and being a motorcycle is 9%.
+
+## Evaluation

@@ -12,8 +12,6 @@ def lambda_handler(event, context):
     bucket = event["s3_bucket"]
     
     # Download the data from s3 to /tmp/image.png
-    ## TODO: fill in
-
     s3.download_file(bucket, key, '/tmp/image.png')
     
     # We read the data from a file

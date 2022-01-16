@@ -14,7 +14,7 @@ def lambda_handler(event, context):
     image = base64.b64decode(event["body"]["image_data"])
 
     # Instantiate a Predictor
-    #predictor = sagemaker.endpoint.Predictor(ENDPOINT)
+    # predictor = sagemaker.endpoint.Predictor(ENDPOINT)
     
     runtime= boto3.client('runtime.sagemaker')
     response = runtime.invoke_endpoint(EndpointName=ENDPOINT,
