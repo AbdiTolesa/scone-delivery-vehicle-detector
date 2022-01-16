@@ -68,3 +68,10 @@ Our model takes in an image and outputs an array of two values, the predicted pr
 The following graph reveals the performance of our model
 ![image](https://user-images.githubusercontent.com/41271840/149670903-1aef8426-51a6-4bda-b558-d58e48c6d718.png)
 
+## Suggestions for improvement
+If you're up for it, you can even go further with these stretch goals:
+
+* Extend your workflow to incorporate more classes: the CIFAR dataset includes other vehicles that Scones Unlimited can identify with this model.
+* Modify your event driven workflow: can you rewrite your Lambda functions so that the workflow can process multiple image inputs in parallel? Can the Step Function "fan out" to accomodate this new workflow?
+* Consider the test data generator we provided for you. Can we use it to create a "dummy data" generator, to simulate a continuous stream of input data? Or a big paralell load of data?
+* What if we want to get notified every time our step function errors out? Can we use the Step Functions visual editor in conjunction with a service like SNS to accomplish this? Try it out!
